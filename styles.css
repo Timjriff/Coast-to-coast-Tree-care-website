@@ -72,6 +72,7 @@ a {
   display: flex;
   align-items: center;
   gap: 22px;
+  margin-left: auto;
   color: var(--muted);
   font-size: 15px;
   font-weight: 800;
@@ -117,7 +118,7 @@ a {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(280px, 390px);
   gap: clamp(24px, 4vw, 56px);
-  align-items: end;
+  align-items: start;
   padding: clamp(70px, 10vw, 124px) clamp(18px, 4vw, 54px) clamp(42px, 6vw, 72px);
   overflow: hidden;
   color: var(--white);
@@ -150,6 +151,7 @@ a {
 
 .hero-content {
   max-width: 860px;
+  align-self: end;
 }
 
 .eyebrow {
@@ -211,7 +213,9 @@ h3 {
 }
 
 .quote-card {
-  align-self: end;
+  align-self: start;
+  justify-self: center;
+  margin-top: clamp(12px, 2vw, 24px);
   padding: 26px;
   border: 1px solid rgba(255, 255, 255, 0.28);
   border-radius: 8px;
