@@ -1,33 +1,36 @@
 # Coast to Coast Tree Care Website
 
-Static multi-page Vercel-ready website for Coast to Coast Tree Care.
-
-## Business Info
-
-- Phone: (949) 281-9707
-- Email: c2ctree@gmail.com
-- Website: https://coasttocoasttreecare.com/
-- Service areas: Mission Viejo, Laguna Niguel, Rancho Santa Margarita, Lake Forest, Dana Point, and South Orange County
-
-## Deploy
-
-Upload all files and folders to the GitHub repository, then import the repository into Vercel.
+Static Vercel-ready website for Coast to Coast Tree Care.
 
 ## Pages
 
-- Home
-- Services
-- Tree Trimming
-- Tree Removal
-- Tree Pruning
-- Palm Tree Service
-- Stump Grinding
-- Emergency Tree Service
-- Service Areas
-- Mission Viejo
-- Laguna Niguel
-- Rancho Santa Margarita
-- Lake Forest
-- Dana Point
-- About
-- Contact
+- `index.html` - Homepage
+- `services.html` - SEO services page
+
+## Main Services
+
+- Tree removal
+- Tree trimming and pruning
+- Tree delivery
+- Stump grinding
+- Property cleanup
+
+## Contact
+
+- Phone: `(949) 281-9707`
+- Email: `c2ctree@gmail.com`
+
+## Important Placeholder Items
+
+Update these before publishing:
+
+- Service area / city / county
+- Domain if different from `coasttocoasttreecare.com`
+- Logo and real crew/job photos if available
+
+## Deploy on Vercel
+
+1. Upload all files in this folder to the root of a GitHub repo.
+2. Import the repo into Vercel.
+3. Use the default static site settings.
+4. No build command is required.
