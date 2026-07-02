@@ -19,12 +19,13 @@ Static Vercel-ready website for Coast to Coast Tree Care.
 
 - Phone: `(949) 281-9707`
 - Email: `c2ctree@gmail.com`
+- Service area: South Orange County
+- Home base: Mission Viejo and Laguna Niguel
 
 ## Important Placeholder Items
 
 Update these before publishing:
 
-- Service area / city / county
 - Domain if different from `coasttocoasttreecare.com`
 - Logo and real crew/job photos if available
 

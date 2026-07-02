@@ -345,6 +345,29 @@ textarea {
   margin-bottom: 36px;
 }
 
+.local-seo {
+  background:
+    linear-gradient(135deg, rgba(107, 143, 58, 0.12), rgba(215, 169, 66, 0.1)),
+    var(--cream);
+}
+
+.area-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.area-grid span {
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--forest-dark);
+  font-weight: 950;
+  text-align: center;
+  box-shadow: 0 10px 28px rgba(16, 22, 16, 0.06);
+}
+
 .service-grid,
 .process-grid,
 .review-grid {
@@ -600,7 +623,8 @@ cite {
   }
 
   .service-grid,
-  .process-grid {
+  .process-grid,
+  .area-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -672,7 +696,8 @@ cite {
   .quote-form,
   .service-grid,
   .process-grid,
-  .review-grid {
+  .review-grid,
+  .area-grid {
     grid-template-columns: 1fr;
   }
 }
